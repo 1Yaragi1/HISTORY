@@ -1,0 +1,139 @@
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+body{
+	/*font-family: 'Tiro Gurmukhi', serif;*/
+	font-family: 'Nunito', sans-serif;
+	background-image: url('../img/fon.jpg');
+}
+
+
+.wrapper {
+
+}
+
+.signup {
+
+}
+
+.container {
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+.signup__row{
+	/*margin: 50% 0 0 0;*/
+	background: #fff;
+	padding: 80px 30px 80px 30px;
+	border-radius: 10px;
+	box-shadow: 0 0 5px 1px #000;
+	position: relative;
+	top: 225px;
+}
+
+.signup__head {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.signup__head img{
+	max-width: 60px;
+}
+
+.signup__head a{
+	font-family: 'Tiro Gurmukhi', serif;
+	color: #000;
+	font-size: 25px;
+	font-weight: 500;
+	margin: 15px 0 15px 0;
+}
+
+.signup__logo {
+
+}
+
+.signup__enters {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.signup__enter {
+
+}
+
+.signup__enter input{
+	border: 1px solid #000;
+	/*background: #000;*/
+	margin: 0 0 15px 0;
+	border-radius: 5px;
+	font-size: 18px;
+	padding: 10px 80px 10px 5px;
+	transition: all 0.3s ease;
+}
+
+.signup__enter input::-webkit-input-placeholder {
+  color: #615c5c;
+}
+
+.signup__enter input:focus{
+  box-shadow: 0 0 3px 1px #000;
+}
+
+.signup__btn{
+	color: #000;
+	font-size: 18px;
+	background: #fff;
+	border: 1px solid #000;
+	border-radius: 5px;
+	padding: 5px 15px 5px 15px;
+	margin: 5px 0 10px 0;
+	transition: all 0.3s ease;
+}
+
+.signup__btn:hover{
+	color: #615c5c;
+}
+
+.signup__btn:active{
+	box-shadow: 0 0 5px 1px #000;
+}
+
+
